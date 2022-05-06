@@ -2158,7 +2158,7 @@ function contestantProgress() {
     let screen = new Scene();
     screen.clean();
     screen.createHeader("Contestant Progress");
-    document.body.style.backgroundImage = "url('image/bg.png')";
+    document.body.style.backgroundImage = "url('image/Willow Piw's Drag Race Top Secret (500 × 500 px).png')";
     let main = document.querySelector("div#MainBlock");
     let centering = document.createElement("center");
     let trackRecords = document.createElement("table");
