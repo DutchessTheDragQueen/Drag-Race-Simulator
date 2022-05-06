@@ -13,6 +13,7 @@ class MiniChallenge {
             desc1[desc1["make-up tutorials with "] = 5] = "make-up tutorials with ";
             desc1[desc1["make a quick look about "] = 6] = "make a quick look about ";
             desc1[desc1["a photoshoot about "] = 7] = "a photoshoot about ";
+            desc1[desc1["a photoshoot about "] = 8] = "a Fashiion Show about ";
         })(desc1 || (desc1 = {}));
         let desc2;
         (function (desc2) {
@@ -23,6 +24,11 @@ class MiniChallenge {
             desc2[desc2["balls."] = 4] = "balls.";
             desc2[desc2["past Drag Race contestants"] = 5] = "past Drag Race contestants";
             desc2[desc2["a celebrity."] = 6] = "a celebrity.";
+            desc2[desc2["a celebrity."] = 7] = "tv shows.";
+            desc2[desc2["a celebrity."] = 8] = "party box.";
+            desc2[desc2["a celebrity."] = 9] = "spring & fall.";
+            desc2[desc2["a celebrity."] = 10] = "day time & night time.";
+            desc2[desc2["a celebrity."] = 10] = "lady & vamp.";
         })(desc2 || (desc2 = {}));
         //reading and puppet challenges:
         if (totalCastSize >= 10 && currentCast.length == 7 && !all_stars || currentCast.length == totalCastSize && (all_stars || lipsync_assassin)) {
