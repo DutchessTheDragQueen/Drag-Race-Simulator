@@ -834,7 +834,7 @@ function createChallenge(challenges, miniChallengeScreen) {
     }
 }
 ////create performance descriptions CREATE NEW DESCRIPTIONS FOR THIS
-function createPerformanceDesc(slay, great, good, bad, flop) {
+function createPerformanceDesc(slay, great, good, bad, flop, left) {
     let screen = new Scene();
     if (slay.length !== 0) {
         for (let i = 0; i < slay.length; i++)
